@@ -5,8 +5,8 @@ function CalculationPage() {
   const flex = {
     display: 'flex',
     flexDirection: 'column',
-    width: '500px',
-    margin: '0 auto',
+    maxWidth: '500px',
+    margin: '50px auto',
   };
   const input = {
     border: 'solid 0.5px grey',
