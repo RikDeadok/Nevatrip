@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'icons';
+  src: url('/src/assets/fonts/MaterialIcons-Regular.woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+%ic {
+  font-family: 'icons';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+[class^="_icon-"],
+[class*=" _icon-"] {
+  &:before {
+    @extend %ic;
+    display: block;
+  }
+}
+//<ИКОНКИ>==============================================================================================================
+._icon-time:before {
+  content: "\e8b5";
+}
+._icon-done:before {
+  content: "\e876";
+}
